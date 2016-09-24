@@ -99,7 +99,7 @@ class Lockin(object):
         self._lockin.write('OVRM0')
         
         # Parámetros internos del objecto accedibles mediante propiedades
-               
+        
         self._refFase = None
         self._refModo = None
         self._refFrec = None
@@ -161,18 +161,16 @@ class Lockin(object):
         self._cch1Modo = ('X', 'R', 'Xn', 'Aux1', 'Aux2')
         self._cch2Modo = ('Y', 'T', 'Yn', 'Aux3', 'Aux4')
         
-        self._cch2RatS = ('None', 'Aux In 1', 'Aux In 2')
-        self._cch2RatS = ('None', 'Aux In 3', 'Aux In 4')
+#        self._cch2RatS = ('None', 'Aux In 1', 'Aux In 2')
+#        self._cch2RatS = ('None', 'Aux In 3', 'Aux In 4')
         
-        self._cexpandX = ('x1', 'x10', 'x100')
-        self._cexpandY = ('x1', 'x10', 'x100')
-        self._cexpandR = ('x1', 'x10', 'x100')       
+#        self._cexpandX = ('x1', 'x10', 'x100')
+#        self._cexpandY = ('x1', 'x10', 'x100')
+#        self._cexpandR = ('x1', 'x10', 'x100')       
         
-        self._cch1OutS = ('Display', 'X')
-        self._cch2OutS = ('Display', 'Y')        
+#        self._cch1OutS = ('Display', 'X')
+#        self._cch2OutS = ('Display', 'Y')        
 
-        self._cExpand = ('x1', 'x10', 'x100')        
-        
         self._cstpLock = ('Local', 'Remote', 'Local Lockout')
         
         self._strinpSens = ('2 nV/fA', '5 nV/fA', '10 nV/fA', 
